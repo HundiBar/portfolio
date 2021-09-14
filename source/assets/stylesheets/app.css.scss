@@ -13,5 +13,8 @@
 @import "pages/index";
 
 body {
-  background-image: url(../images/starwarsbg.jpeg);
+  background-image: url(../images/test.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
 }
