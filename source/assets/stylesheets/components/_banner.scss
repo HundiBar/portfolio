@@ -1,0 +1,37 @@
+@font-face {
+  font-family: 'starwars';
+  src: url('../fonts/Starjhol.ttf') format('truetype');
+}
+
+.banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+  min-height: 100vh;
+  margin-bottom: 100px;
+}
+.title {
+  font-family: 'starwars';
+  font-size: 50px;
+  color: #FEE91F;
+  text-shadow: 0px 2px 10px white;
+}
+
+.fa-jedi-order {
+  font-size: 48px;
+  transform: rotate(180deg);
+  color: white;
+  margin-top: 64px;
+  text-shadow: 0 0 10px #FEE91F;
+}
+
+@media (min-width: 540px) {
+  .title {
+    font-size: 80px;
+  }
+}
+
+

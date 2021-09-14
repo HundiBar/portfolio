@@ -2,5 +2,13 @@
 @import "alert";
 @import "avatar";
 @import "navbar";
+@import "banner";
+@import "about";
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+}
 
 
