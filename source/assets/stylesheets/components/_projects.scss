@@ -1,5 +1,13 @@
+// @font-face {
+//   font-family: 'episode';
+//   src: url('../fonts/episode.ttf') format('truetype');
+// }
 .project-card-info {
-  padding: 0 30px;
+  padding: 0 15px;
+  color: white;
+  word-spacing: 5px;
+  font-family: 'episode';
+
 }
 
 .project-card-info h1 {
@@ -17,4 +25,32 @@
 .tech-icons i {
   font-size: 32px;
   margin: 8px;
+}
+
+.button {
+  padding: 50px;
+  border-radius: 25%;
+  background: green;
+  text-decoration: none;
+  color: yellow;
+  &:hover {
+    background: red;
+    text-decoration: none;
+    color:  green;
+  }
+}
+
+.device.device-spacegray.device-iphone-8 {
+    transform: scale(0.5) translateY(-50%) translateX(-50%);
+    // transform: ;
+}
+
+
+@media (min-width: 750px) {
+  .project-card-info {
+    padding: 0 45px;
+  }
+  // #element1 {
+  // order: +1;
+  // }
 }
