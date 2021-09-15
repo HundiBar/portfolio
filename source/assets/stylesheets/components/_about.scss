@@ -18,26 +18,35 @@
   max-width: 600px;
   min-height: 400px;
   padding: 24px 50px;
-  box-shadow: 0 0 2px white;
-  & p, h2, h5  {
-    color: #FEE91F;
+  box-shadow: 0 0 15px red;
+  background-color: rgb(41, 40, 40);
+  opacity: 0.8;
+  & p {
+  color: white;
   font-family: 'episode';
-
   }
 }
 
-// .about-card  {
-//   color: #FEE91F;
-//   font-family: 'episode';
-//   text-shadow: 0 2px 5px white;
-//   opacity: 0.8;
-//   font-size: 40px;
-//   margin-bottom: 18px;
-//
-// }
+#main-subtitle {
+  padding: 10px 0;
+  color: #FEE91F;
+  font-family: 'episode';
+  border-bottom: 3px solid red;
+  margin-bottom: 18px;
+}
+
+.about-card span {
+  color: #FEE91F;
+  font-family: 'episode';
+  border-bottom: 3px solid red;
+}
+
+
 
 .about-skills {
   color: white;
+  text-shadow: 0 1px red;
+  opacity: 0.8;
 }
 
 .skill-icon-container {
