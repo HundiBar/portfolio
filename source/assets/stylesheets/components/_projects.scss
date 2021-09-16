@@ -54,7 +54,7 @@
 
 .button {
   width: 80px;
-  padding: 4px;
+  padding-bottom: 6px;
   font-family: 'episode';
   border-radius: 30px;
   border: 1px solid rgba(255,255,255, 0.8);
@@ -78,10 +78,20 @@
     // transform: ;
 }
 
-
+@media (min-width: 350px) {
+  .project-card-info {
+    padding: 0 45px;
+  }
+  .project-device-iphone-8 {
+    margin: 30px;
+  }
+}
 @media (min-width: 750px) {
   .project-card-info {
     padding: 0 45px;
+  }
+  .project-device-iphone-8 {
+    margin: 75px;
   }
   // #element1 {
   // order: +1;

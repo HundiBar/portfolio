@@ -67,3 +67,13 @@
     padding-bottom: 16px;
 }
 
+@media (min-width: 350px) {
+  .anchor {
+  transform: translateY(-10vh);
+  }
+  .about-card {
+    font-size:12px;
+    margin-bottom: 30px;
+  }
+}
+

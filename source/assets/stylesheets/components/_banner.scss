@@ -28,6 +28,11 @@
   text-shadow: 0 0 10px #FEE91F;
 }
 
+@media (min-width: 350px) {
+  .title {
+    font-size: 40px;
+  }
+}
 @media (min-width: 540px) {
   .title {
     font-size: 80px;
