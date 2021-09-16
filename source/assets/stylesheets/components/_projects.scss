@@ -11,16 +11,40 @@
 
 }
 
+.project-main-subtitle {
+  padding: 10px 0;
+  color: #FEE91F;
+  font-family: 'episode';
+  border-bottom: 3px solid #FF0200;
+  margin-bottom: 18px;
+}
+
 .project-card-info h1 {
   color: white;
 }
 .project-card-info p {
-  color:white;
+  color:rgb(233, 230, 230);
+  text-shadow: 0 0px 1px rgb(121, 109, 109);
+}
+.blue-lightsaber {
+  text-shadow: 0 2px 3px #18EAF2;
 }
 
-.tech-icons {
+.project-bullets {
+  font-size: 12px;
+}
+
+.empower-title {
+  border-bottom: 1px solid #18EAF2;
+}
+.product-subtitle-underline {
+  border-bottom: 1px solid #FF0200;
+}
+
+  .tech-icons {
   color: white;
   margin-top: 18px;
+  text-shadow: 0 0 6px #FF0200;
 }
 
 .tech-icons i {
