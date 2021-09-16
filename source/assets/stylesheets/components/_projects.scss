@@ -73,9 +73,13 @@
   }
 }
 
+#element1 {
+  order: +1;
+}
+
+
 .device.device-spacegray.device-iphone-8 {
     transform: scale(0.5) translateY(-50%) translateX(-50%);
-    // transform: ;
 }
 
 @media (min-width: 350px) {
@@ -86,14 +90,17 @@
     margin: 30px;
   }
 }
-@media (min-width: 750px) {
-  .project-card-info {
-    padding: 0 45px;
-  }
+@media (min-width: 560px) {
   .project-device-iphone-8 {
-    margin: 75px;
+    margin: 70px;
   }
-  // #element1 {
-  // order: +1;
-  // }
+}
+
+@media (min-width: 1200px) {
+  .project-device-iphone-8 {
+    margin: 0px;
+  }
+  #element1 {
+  order: 0;
+  }
 }

@@ -1,8 +1,8 @@
 <div>
   <div class="project-card-container">
     <span class="anchor" id="work"></span>
-    <div class="row justify-content-between medium-up-2">
-      <div id= "element1" class="col-sm-12 col-md-11 col-lg-11 col-xl-6 project-card-info">
+    <div class="row justify-content-between">
+      <div class="col-sm-12 col-md-11 col-lg-11 col-xl-6 project-card-info">
         <h2 id="main-subtitle">
           midorin
         </h2>
@@ -40,7 +40,7 @@
           <%= link_to "code", "https://github.com/HundiBar/Midorin", class: 'button', target: '_blank'%>
         </div>
       </div>
-      <div id= "element2"class="col-sm-12 col-md-12 col-lg-4">
+      <div class="col-sm-12 col-md-12 col-lg-4">
         <div data-aos="zoom-in" data-aos-duration="2000" class="project-device-iphone-8 aos-init aos-animate">
           <div class="device device-spacegray device-iphone-8">
             <div class="device-frame">
@@ -52,6 +52,61 @@
             <div class="device-btns"></div>
             <div class="device-power"></div>
           </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="project-card-container">
+    <div class="row justify-content-between medium-up-2">
+      <div id= "element1"class="col-sm-12 col-md-12 col-lg-4">
+        <div data-aos="zoom-in" data-aos-duration="2000" class="project-device-iphone-8 aos-init aos-animate">
+          <div class="device device-spacegray device-iphone-8">
+            <div class="device-frame">
+              <%= image_tag'../images/midorin.jpg', class: 'device-content project-img' %>
+            </div>
+            <div class="device-stripe"></div>
+            <div class="device-header"></div>
+            <div class="device-sensors"></div>
+            <div class="device-btns"></div>
+            <div class="device-power"></div>
+          </div>
+        </div>
+      </div>
+      <div id= "element2" class="col-sm-12 col-md-11 col-lg-11 col-xl-6 project-card-info">
+        <h2 id="main-subtitle">
+          central gaijin library
+        </h2>
+        <p><span class="product-subtitle-underline">lead developer </span></p>
+        <p>midorin is a mobile first application developed to be a one stop shop to allow you to become better at caring for your plants. <br>
+          <br>
+          <span class= "blue-lightsaber">
+            <span class="empower-title"> it empowers you to;</span> <br>
+            <span class="product-bullets">
+              - sign up with line <br>
+              - add plants to your garden <br>
+              - receive watering reminders to your line<br>
+              - identify a plant with your mobile camera <br>
+              - search or filter for plants in the database<br>
+              - recieve support from the community chat channels<br>
+            </span>
+          </span>
+        </p>
+        <div class="d-flex tech-icons flex-wrap">
+          <i class="devicon-rails-plain"></i>
+          <i class="devicon-ruby-plain"></i>
+          <i class="devicon-javascript-plain"></i>
+          <i class="devicon-html5-plain"></i>
+          <i class="devicon-sass-original"></i>
+          <i class="devicon-bootstrap-plain"></i>
+          <i class="devicon-heroku-original"></i>
+          <i class="devicon-postgresql-plain"></i>
+          <i class="devicon-git-plain"></i>
+          <i class="devicon-github-original"></i>
+          <i class="devicon-figma-plain"></i>
+        </div>
+        <div class="d-flex mt-5">
+          <span class="mr-5"> <%= link_to "site", "https://cgl-hundibar.herokuapp.com", class: 'button', target: '_blank'%></span>
+          <%= link_to "code", "https://github.com/HundiBar/central-gaijin-library", class: 'button', target: '_blank'%>
         </div>
       </div>
     </div>
