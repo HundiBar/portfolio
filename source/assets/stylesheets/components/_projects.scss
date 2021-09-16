@@ -78,9 +78,11 @@
 }
 
 .device.device-spacegray.device-iphone-8 {
-    transform: scale(0.5) translateY(-50%) translateX(-50%);
+    transform: scale(0.5) translateY(-45%) translateX(-50%);
 }
-
+.device.device-spacegray.device-macbook {
+    transform: scale(0.4) translateY(-50%) translateX(-145%);
+  }
 @media (min-width: 350px) {
   .project-card-info {
     padding: 0 45px;
@@ -88,11 +90,18 @@
   .project-device-iphone-8 {
     margin: 30px;
   }
+
+  .project-device-macbook {
+    margin-left: 200px;
+  }
 }
 @media (min-width: 560px) {
   .project-device-iphone-8 {
     margin-left: 70px;
     padding: 25px;
+  }
+  .device.device-spacegray.device-macbook {
+    transform: scale(0.8) translateY(5%) translateX(-80%);
   }
 }
 
