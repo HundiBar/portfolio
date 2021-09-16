@@ -77,7 +77,6 @@
   order: +1;
 }
 
-
 .device.device-spacegray.device-iphone-8 {
     transform: scale(0.5) translateY(-50%) translateX(-50%);
 }
@@ -92,15 +91,20 @@
 }
 @media (min-width: 560px) {
   .project-device-iphone-8 {
-    margin: 70px;
+    margin-left: 70px;
+    padding: 25px;
   }
 }
 
 @media (min-width: 1200px) {
   .project-device-iphone-8 {
     margin: 0px;
+    padding-top: 24px;
   }
   #element1 {
   order: 0;
+  }
+  .right {
+    margin-left: 150px;
   }
 }
