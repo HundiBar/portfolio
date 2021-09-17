@@ -28,6 +28,18 @@
   text-shadow: 0 0 10px #FEE91F;
 }
 
+@keyframes chevron {
+  0% {transform: translateY(10px);}
+  25% {transform: translateY(-10px);}
+  50% {transform: translateY(10px);}
+  75% {transform: translateY(-10px);}
+  100% {transform: translateY(100px);}
+}
+
+.fa-jedi-order {
+  animation: chevron 5s linear 0s infinite alternate;
+}
+
 @media (min-width: 350px) {
   .title {
     font-size: 40px;
