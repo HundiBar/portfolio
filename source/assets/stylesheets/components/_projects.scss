@@ -108,12 +108,15 @@
 @media (min-width: 1200px) {
   .project-device-iphone-8 {
     margin: 0px;
-    padding-top: 24px;
+    padding-top: 42px;
   }
   #element1 {
   order: 0;
   }
   .right {
     margin-left: 150px;
+  }
+  .device.device-spacegray.device-macbook {
+    padding-top: 24px;
   }
 }
