@@ -40,7 +40,7 @@
 }
 
 .title {
-  animation: title 10s ease-out infinite;
+  animation: title 10s ease-in-out infinite;
 }
 
 .banner {
@@ -61,11 +61,11 @@
   25% {transform: translateY(-10px);}
   50% {transform: translateY(10px);}
   75% {transform: translateY(-10px);}
-  100% {transform: translateY(100px);}
+  100% {transform: translateY(10px);}
 }
 
 .fa-jedi-order {
-  animation: chevron 10s linear 0s infinite alternate;
+  animation: chevron 10s linear 0s infinite;
 }
 
 
