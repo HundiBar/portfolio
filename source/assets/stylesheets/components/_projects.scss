@@ -101,7 +101,8 @@
     padding: 25px;
   }
   .device.device-spacegray.device-macbook {
-    transform: scale(0.8) translateY(5%) translateX(-80%);
+    transform: scale(0.8) translateY(5%) translateX(-50%);
+
   }
 }
 
@@ -109,6 +110,10 @@
   .project-device-iphone-8 {
     margin: 0px;
     padding-top: 42px;
+  }
+  .project-card-container {
+    margin: 0px;
+    padding: 0px;
   }
   #element1 {
   order: 0;
@@ -118,5 +123,6 @@
   }
   .device.device-spacegray.device-macbook {
     padding-top: 24px;
+    transform: scale(0.8) translateY(5%) translateX(-80%);
   }
 }
