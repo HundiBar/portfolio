@@ -48,7 +48,7 @@
   transform-style: preserve3d;
 }
 
-.fa-jedi-order {
+.fa-jedi-order.chev {
   font-size: 48px;
   transform: rotate(180deg);
   color: white;
@@ -64,7 +64,7 @@
   100% {transform: translateY(10px);}
 }
 
-.fa-jedi-order {
+.fa-jedi-order.chev {
   animation: chevron 10s linear 0s infinite;
 }
 

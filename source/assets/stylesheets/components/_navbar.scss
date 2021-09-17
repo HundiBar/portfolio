@@ -1,12 +1,31 @@
-.navbar-lewagon {
-  justify-content: space-between;
-  background: white;
+.navigation {
+  display: flex;
+  align-items: center;
+  width: 50vw;
+  color: red;
+  font-family: 'starwars';
+  position: sticky;
+  top: 0;
+  z-index: 5;
 }
 
-.navbar-lewagon .navbar-collapse {
-  flex-grow: 0;
+.jedi-burger {
+  font-size: 32px;
+  margin-right: 12px;
 }
 
-.navbar-lewagon .navbar-brand img {
-  width: 40px;
+.nav-links a {
+  display: inline-block;
+  font-size: 24px;
+  margin-left: 8px;
+  opacity: 0;
+  transition: .5s ease-in-out ;
 }
+
+.nav-links.open a {
+  display: inline-block;
+  font-size: 24px;
+  margin-left: 8px;
+  opacity: 1;
+}
+
