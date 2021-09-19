@@ -47,4 +47,17 @@
   font-weight: normal;
 }
 
+.skill-icon-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill,40px);
+    grid-gap: 8px;
+}
 
+.about-skills i {
+    font-size: 32px;
+    padding-bottom: 16px;
+}
+
+.about-details-tech {
+  display: flex;
+}
