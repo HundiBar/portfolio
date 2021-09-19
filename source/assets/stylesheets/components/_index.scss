@@ -2,15 +2,6 @@
 @import "alert";
 @import "avatar";
 @import "navbar";
-@import "banner";
 @import "about";
+@import "hero";
 @import "projects";
-
-
-.content-container {
-  display: flex;
-  flex-direction: column;
-  padding: 50px;
-}
-
-

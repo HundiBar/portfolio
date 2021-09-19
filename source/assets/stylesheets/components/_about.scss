@@ -1,80 +1,50 @@
-@font-face {
-  font-family: 'episode';
-  src: url('../fonts/episode.ttf') format('truetype');
-}
-
-.about-section {
-  min-height: 100vh;
-  margin-bottom: 50px;
-
+.about-wrapper {
+  height: 100vh;
+  background-color: #FFFEFE;
 }
 
 .anchor {
-  position: absolute;
   transform: translateY(-10vh);
 }
 
-.about-card {
-  max-width: 600px;
-  min-height: 400px;
-  padding: 24px 50px;
-  box-shadow: 0 0 15px red;
-  border-radius: 9px;
-  background-color: rgb(41, 40, 40);
-  opacity: 0.8;
-  word-spacing: 5px;
-  font-size: 12px;
-  margin-bottom: 70px;
-  & p {
-  color: white;
-  font-family: 'episode';
-  }
+.about-container {
+  padding: 0 275px;
 }
 
-#main-subtitle {
-  padding: 10px 0;
-  color: #FEE91F;
-  font-family: 'episode';
-  border-bottom: 3px solid red;
-  margin-bottom: 18px;
+.about-title {
+  padding-top: 75px;
 }
 
-.about-card span {
-  color: #FEE91F;
-  font-family: 'episode';
-  border-bottom: 3px solid red;
+.about-title span {
+  display: flex;
+  justify-content: center;
+  font-family: 'Archivo Black';
+  padding-bottom: 12px;
+  font-size: 32px;
+  border-bottom: 2px solid #EA3B39;
+  line-height: 150%;
 }
 
-
-
-.about-skills {
-  color: white;
-  text-shadow: 0 1px red;
-  padding-top: 50px;
-  opacity: 0.8;
-  & h2 {
-    padding-bottom: 8px;
-  }
+.about-points {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 32px 0;
 }
 
-.skill-icon-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fill,80px);
-    grid-gap: 18px;
-
+.about-point-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 160px;
 }
 
-.about-skills i {
-    font-size: 66px;
-    padding-bottom: 16px;
+#point-title {
+  font-family: 'Archivo black';
+  font-size: 20px;
+  font-weight: normal;
 }
 
-@media (min-width: 376px) {
-  .anchor {
-  transform: translateY(-10vh);
-  }
-  .about-card {
-    font-size: 16px;
-  }
-}
 

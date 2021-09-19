@@ -1,10 +1,12 @@
 <nav class='navigation'>
-  <div class="jedi-burger">
-    <i class="fab fa-jedi-order"></i>
+  <div class="hamburger">
+    <% link_to '#hero' do %>
+      <i class="fas fa-bars"></i>
+    <% end %>
   </div>
   <div class="nav-links">
-    <%= link_to 'about', '#about'%>
-    <%= link_to 'projects', '#projects'%>
-    <%= link_to 'contact', '#contact'%>
+    <%= link_to 'ABOUT', '#about'%>
+    <%= link_to 'PROJECTS', '#projects'%>
+    <%= link_to 'CONTACT', '#contact'%>
   </div>
 </nav>

@@ -13,12 +13,8 @@
 @import "pages/index";
 @import "devices";
 
-body {
-  background-image: url(../images/test.jpeg);
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed;
-}
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
 
 a {
   text-decoration: none;
