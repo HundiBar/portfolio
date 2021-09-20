@@ -6,6 +6,7 @@
   transform: translateY(-10vh);
 }
 
+
 .about-container {
     width: 950px;
     margin: 75px auto;
@@ -65,6 +66,14 @@
   line-height: 125%;
 }
 
+.about-details-tech {
+  display: flex;
+}
+
+.about-card {
+  margin: 0 25px;
+}
+
 .about-text-subtitle {
   font-family: 'Archivo Black';
   font-weight: 400;
@@ -91,16 +100,14 @@
 .skill-icon-container {
     display: grid;
     grid-template-columns: repeat(auto-fill,40px);
-    grid-gap: 17px;
+    grid-gap: 24px;
+    margin-bottom: 8px;
 }
 
 .skill-icon-container i {
-    font-size: 42px;
+    font-size: 56px;
     padding-bottom: 16px;
 }
 
-.about-details-tech {
-  display: flex;
-}
 
 
