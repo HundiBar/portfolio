@@ -68,14 +68,11 @@
 
 .about-details-tech {
   display: flex;
+  justify-content: space-around;
 }
 
 .about-card {
-  margin-left: 16px;
-}
-
-.about-skills {
-  margin-left: 82px;
+  width: 50%;
 }
 
 .about-text-subtitle {
@@ -104,12 +101,12 @@
 .skill-icon-container {
     display: grid;
     grid-template-columns: repeat(auto-fill,40px);
-    grid-gap: 24px;
+    grid-gap: 21px;
     margin-bottom: 8px;
 }
 
 .skill-icon-container i {
-    font-size: 56px;
+    font-size: 54px;
     padding-bottom: 16px;
 }
 
