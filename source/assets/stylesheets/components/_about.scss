@@ -8,17 +8,12 @@
 
 .about-container {
     width: 950px;
-    margin: 0 auto;
+    margin: 75px auto;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     justify-items: center;
     align-content: center;
-
-}
-
-.about-title {
-  padding-top: 75px;
 }
 
 .about-title span {
@@ -85,14 +80,22 @@
   line-height: 125%;
 }
 
+.about-tech-subtitle {
+  font-family: 'Archivo Black';
+  font-weight: 400;
+  font-size:20px;
+  color: #EA3B39;
+  line-height: 22px
+}
+
 .skill-icon-container {
     display: grid;
     grid-template-columns: repeat(auto-fill,40px);
-    grid-gap: 8px;
+    grid-gap: 17px;
 }
 
-.about-skills i {
-    font-size: 32px;
+.skill-icon-container i {
+    font-size: 42px;
     padding-bottom: 16px;
 }
 
