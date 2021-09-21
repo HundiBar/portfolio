@@ -1,10 +1,10 @@
 <div class="hero-wrapper">
   <div class="hero-container">
-    <div class="hero-info">
-      <div>
+    <div class="row hero-info medium-up-4">
+      <div id="element1">
         <%= image_tag'../images/avatar.jpeg', class: 'hero-avatar' %>
       </div>
-      <div class="hero-text" style="color:white;">
+      <div id="element2" class="hero-text" style="color:white;">
         <span id="hero-hey">
           <h4>HEY I'M</h4>
         </span>
@@ -16,10 +16,10 @@
             RUBY ON RAILS | JAVASCRIPT | REACT
           </h4>
         </span>
-        <div class="resume-container">
+        <div id= "element3" class="resume-container">
           <%= link_to 'My resume', '../Dean Abbott CV.pdf', class: 'resume-link'%>
         </div>
-        <div class="chevron">
+        <div id="element4"class="chevron">
           <%link_to '#about' do %>
             <i class="fas fa-chevron-down"></i>
           <% end %>
