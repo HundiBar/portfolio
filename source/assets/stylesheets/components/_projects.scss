@@ -86,3 +86,11 @@
     color: #FFFEFE;
   }
 }
+
+@media (max-width: 461px) {
+  .project-info {
+  width: 90%;
+  margin-left: 0px;
+}
+
+}
