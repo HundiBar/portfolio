@@ -5,6 +5,7 @@
 .project-dark {
   color: #FFFEFE;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
@@ -13,8 +14,14 @@
   transform: scale(0.65);
 }
 
+.device-container .device.device-spacegray.device-iphone-8 .device-frame {
+    background: #222;
+    box-shadow: inset 0 0 0 6px #E3CA81, inset 0 0 0 12px #9b9ba0;
+}
+
 .project-info {
   width: 30%;
+  margin-left: 150px;
 }
 
 .project-info p, li {
@@ -36,7 +43,46 @@
   font-family: 'Archivo Black';
   font-weight: 400;
   font-size:24px;
-  color: FFFEFE;
+  color: #FFFEFE;
   line-height: 26px;
   margin-bottom: 16px;
+}
+
+.project-links {
+  display: flex;
+  margin-top: 32px;
+}
+.website-button {
+  background: #EA3B39;
+  padding: 12px 32px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Archivo Black';
+  font-size: 16px;
+  color: #FFFEFE;
+  margin-right: 24px;
+  transition: .5s ease-in-out;
+  &:hover {
+    transform: scale(1.1);
+    color: #FFFEFE;
+  }
+}
+
+.github-dark-button {
+  padding: 12px 32px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Archivo Black';
+  font-size: 16px;
+  color: #FFFEFE;
+  border: 2px solid #FFFEFE ;
+  transition: .5s ease-in-out;
+  &:hover {
+    transform: scale(1.1);
+    color: #FFFEFE;
+  }
 }
