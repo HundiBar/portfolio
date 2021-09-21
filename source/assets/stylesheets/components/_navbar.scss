@@ -34,10 +34,10 @@
 }
 
 .nav-links {
-  opacity: 0;
+  display: none;
   transition: .5s ease-in-out;
 }
 
 .nav-links.open {
-  opacity: 1;
+  display: inline;
 }
