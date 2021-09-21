@@ -1,0 +1,42 @@
+.dark-wrapper {
+  background: #11141E;
+}
+
+.project-dark {
+  color: #FFFEFE;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.device.device-spacegray.device-iphone-8 {
+  transform: scale(0.65);
+}
+
+.project-info {
+  width: 30%;
+}
+
+.project-info p, li {
+  font-family: 'Montserrat';
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.project-subtitle {
+  font-family: 'Archivo Black';
+  font-weight: 400;
+  font-size:24px;
+  color: #EA3B39;
+  line-height: 26px;
+  margin-bottom: 16px;
+}
+
+.project-subtitle-white {
+  font-family: 'Archivo Black';
+  font-weight: 400;
+  font-size:24px;
+  color: FFFEFE;
+  line-height: 26px;
+  margin-bottom: 16px;
+}
