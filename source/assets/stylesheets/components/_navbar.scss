@@ -41,3 +41,9 @@
 .nav-links.open {
   display: inline;
 }
+
+@media (max-width: 375px) {
+  .navigation {
+    padding-left: 18px;
+  }
+}

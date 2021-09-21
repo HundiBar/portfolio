@@ -110,5 +110,20 @@
     padding-bottom: 16px;
 }
 
+@media (max-width: 400px){
+  .about-card {
+    display: inline-block;
+    margin:0 auto;
+    width: 75%;
+  }
+  .about-skills {
+    display: inline-block;
+    margin:0 auto;
+    width: 75%;
+  }
 
+  .about-points {
+    padding: 0 8px;
+  }
+}
 
