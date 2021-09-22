@@ -87,6 +87,7 @@
   }
 }
 
+
 @media (max-width: 461px) {
   .project-info {
   width: 90%;
@@ -96,4 +97,23 @@
   .project-links {
     padding-bottom: 16px;
   }
+  #project-el1 {
+    order: +1;
+  }
+  .device.device-spacegray.device-iphone-8 {
+  transform: scale(0.5);
+  }
+
+  .project-device-iphone-8 {
+    margin-top: -200px;
+    margin-left: -25px;
+    z-index: 11;
+  }
+  // .project-device-iphone-8 {
+  //   padding: 0px;
+  // }
+  // .device-container {
+  //   padding: 0px;
+  //   margin:0px;
+  // }
 }
