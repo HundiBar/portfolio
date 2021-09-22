@@ -2,8 +2,20 @@
   background: #11141E;
 }
 
+.light-wrapper {
+  background: #FFFEFE;
+}
+
 .project-dark {
   color: #FFFEFE;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-light {
+  color: #11141E;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -14,17 +26,38 @@
   transform: scale(0.65);
 }
 
-.device-container .device.device-spacegray.device-iphone-8 .device-frame {
-    background: #222;
-    box-shadow: inset 0 0 0 6px #E3CA81, inset 0 0 0 12px #9b9ba0;
+.project-device-iphone-8 {
+  margin-top: -80px;
+  margin-bottom: -80px;
 }
 
-.project-info {
+#midorin-frame {
+  background: #222;
+  box-shadow: inset 0 0 0 6px #E3CA81, inset 0 0 0 12px #9b9ba0;
+}
+
+#cgl-frame {
+  background: #222;
+  box-shadow: inset 0 0 0 6px #E86870, inset 0 0 0 12px #9b9ba0;
+}
+
+.project-info-dark {
   width: 30%;
   margin-left: 150px;
 }
 
-.project-info p, li {
+.project-info-light {
+  width: 30%;
+  margin-right: 150px;
+}
+
+.project-info-light p, li {
+  font-family: 'Montserrat';
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.project-info-dark p, li {
   font-family: 'Montserrat';
   font-size: 16px;
   line-height: 20px;
@@ -48,10 +81,20 @@
   margin-bottom: 16px;
 }
 
+.project-subtitle-dark {
+  font-family: 'Archivo Black';
+  font-weight: 400;
+  font-size:24px;
+  color: #11141E;
+  line-height: 26px;
+  margin-bottom: 16px;
+}
+
 .project-links {
   display: flex;
   margin-top: 32px;
 }
+
 .website-button {
   background: #EA3B39;
   padding: 12px 32px;
@@ -87,9 +130,31 @@
   }
 }
 
+.github-light-button {
+  padding: 12px 32px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Archivo Black';
+  font-size: 16px;
+  color: #11141E;
+  border: 2px solid #11141E ;
+  transition: .5s ease-in-out;
+  &:hover {
+    transform: scale(1.1);
+    color: #11141E;
+  }
+}
+
 
 @media (max-width: 461px) {
-  .project-info {
+  .project-info-light {
+  width: 90%;
+  margin-right: 0px;
+  padding-top: 16px;
+  }
+  .project-info-dark {
   width: 90%;
   margin-left: 0px;
   padding-top: 16px;
@@ -105,15 +170,8 @@
   }
 
   .project-device-iphone-8 {
-    margin-top: -200px;
-    margin-left: -25px;
-    z-index: 11;
+    margin-top: -175px;
+    margin-bottom: -150px;
   }
-  // .project-device-iphone-8 {
-  //   padding: 0px;
-  // }
-  // .device-container {
-  //   padding: 0px;
-  //   margin:0px;
-  // }
+
 }

@@ -4,7 +4,7 @@
     <div class="device-container" id="project-el1">
       <div data-aos="zoom-in" data-aos-duration="2000" class="project-device-iphone-8 aos-init aos-animate">
         <div class="device device-spacegray device-iphone-8">
-          <div class="device-frame">
+          <div id= "midorin-frame" class="device-frame">
             <%= image_tag'../images/midorin.jpg', class: 'device-content project-img' %>
           </div>
           <div class="device-stripe"></div>
@@ -15,7 +15,83 @@
         </div>
       </div>
     </div>
-    <div class="project-info" id="project-el2">
+    <div class="project-info-dark" id="project-el2">
+      <h2 class="project-subtitle">MIDORIN</h2>
+      <p>Midorin is a mobile first application developed to be a one stop shop to allow you to become better at caring for your plants</p>
+      <h2 class="project-subtitle-white">APPLICATION FEATURES:</h2>
+      <ul>
+        <li>Sign up with LINE</li>
+        <li>Add plants to your own virtual garden</li>
+        <li>Receive watering reminders to your LINE</li>
+        <li>Identify plants with your mobile camera</li>
+        <li>Search a specific plant or filter plants</li>
+        <li>Receive support from the Midorin community in the chat channels</li>
+      </ul>
+      <p>This app taught me a lot about sending API requests, matching search data to the database, the power and versatility of Javascript and setting up a PWA</p>
+      <div class="project-links">
+        <%= link_to "Website", "https://www.midorin.one", class: 'website-button', target: '_blank'%>
+        <%= link_to "Github", "https://github.com/HundiBar/Midorin", class: 'github-dark-button', target: '_blank'%>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="light-wrapper">
+  <div class="project-light medium-up-3">
+    <div class="project-info-light" id="project-el2">
+      <h2 class="project-subtitle">CENTRAL GAIJIN LIBRARY</h2>
+      <p>CGL is a mobile first application. It is a digitized library aimed at foreigners who have a hard time finding books in their language in Japan</p>
+      <h2 class="project-subtitle-dark">APPLICATION FEATURES:</h2>
+      <ul>
+        <li>Connects lenders and borrowers</li>
+        <li>Automatically upload lender books with Google Books API</li>
+        <li>Make booking requests for availale dates</li>
+        <li>Search books via title or location</li>
+        <li>User dashboard to:
+          <ul>
+            <li> Monitor status of lent or borrowed books </li>
+            <li> A lender to remove availability for their books </li>
+          </ul>
+        </li>
+      </ul>
+      <p>This app taught me about how to setup an API via Google books, a lot about how relational-databases work, both N:1 and N:N relations</p>
+      <div class="project-links">
+        <%= link_to "Website", "https://cgl-hundibar.herokuapp.com", class: 'website-button', target: '_blank'%>
+        <%= link_to "Github", "https://github.com/HundiBar/central-gaijin-library", class: 'github-light-button', target: '_blank'%>
+      </div>
+    </div>
+    <div class="device-container" id="project-el1">
+      <div data-aos="zoom-in" data-aos-duration="2000" class="project-device-iphone-8 aos-init aos-animate">
+        <div class="device device-spacegray device-iphone-8">
+          <div id="cgl-frame" class="device-frame">
+            <%= image_tag'../images/cgl.jpeg', class: 'device-content project-img' %>
+          </div>
+          <div class="device-stripe"></div>
+          <div class="device-header"></div>
+          <div class="device-sensors"></div>
+          <div class="device-btns"></div>
+          <div class="device-power"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="dark-wrapper">
+  <div class="project-dark medium-up-3">
+    <div class="device-container" id="project-el1">
+      <div data-aos="flip-up" data-aos-duration="2000" class="project-device-macbook aos-init aos-animate">
+        <div class="device device-gold device-macbook">
+          <div class="device-frame">
+            <%= image_tag'../images/watchlistsized.jpeg', class: 'device-content project-img' %>
+          </div>
+          <div class="device-stripe"></div>
+          <div class="device-header"></div>
+          <div class="device-sensors"></div>
+          <div class="device-btns"></div>
+          <div class="device-power"></div>
+        </div>
+      </div>
+    </div>
+    <div class="project-info-dark" id="project-el2">
       <h2 class="project-subtitle">MIDORIN</h2>
       <p>Midorin is a mobile first application developed to be a one stop shop to allow you to become better at caring for your plants</p>
       <h2 class="project-subtitle-white">APPLICATION FEATURES:</h2>
