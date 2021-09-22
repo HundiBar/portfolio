@@ -26,9 +26,20 @@
   transform: scale(0.65);
 }
 
+.device.device-gold.device-macbook {
+  transform: scale(0.5);
+  }
+
 .project-device-iphone-8 {
   margin-top: -80px;
   margin-bottom: -80px;
+}
+
+.project-device-macbook {
+  margin-top: 90px;
+  margin-bottom: 90px;
+  margin-right: -170px;
+  margin-left: -260px;
 }
 
 #midorin-frame {
@@ -168,10 +179,18 @@
   .device.device-spacegray.device-iphone-8 {
   transform: scale(0.5);
   }
-
   .project-device-iphone-8 {
     margin-top: -175px;
     margin-bottom: -150px;
+  }
+  .project-subtitle{
+    padding-top: 16px;
+  }
+  .device.device-gold.device-macbook {
+  transform: scale(0.5);
+  }
+  .project-device-macbook {
+    margin-top: -48px;
   }
 
 }
