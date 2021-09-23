@@ -6,7 +6,6 @@
   transform: translateY(-10vh);
 }
 
-
 .about-container {
     width: 950px;
     margin: 86px auto;
@@ -17,16 +16,22 @@
     align-content: center;
 }
 
-.about-title span {
+.about-title {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   font-family: 'Archivo Black';
   padding-bottom: 12px;
   font-size: 32px;
-  border-bottom: 2px solid #EA3B39;
   line-height: 150%;
-  width: 200px;
   margin: 0 auto
+}
+
+#title-break-line {
+  margin: 0 auto;
+  padding-top: 12px;
+  width: 100px;
+  border-bottom: 2px solid #EA3B39;
 }
 
 .about-points {
