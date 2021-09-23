@@ -40,3 +40,9 @@
   line-height: 26px;
 }
 
+
+@media (max-width: 461px) {
+  .form-container {
+  width: 90%;
+  }
+}
