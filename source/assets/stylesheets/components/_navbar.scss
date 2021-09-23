@@ -11,7 +11,6 @@
   align-items: center;
   letter-spacing: 0.04em;
   width: 100%;
-  z-index: 10;
 }
 
 .hamburger a {
@@ -36,11 +35,13 @@
 .nav-links {
   opacity: 0;
   transition: .5s ease-in-out;
+  z-index: -1;
 }
 
 .nav-links.open {
   opacity: 1;
   transition: .5s ease-in-out;
+  z-index: 2;
 }
 
 @media (max-width: 375px) {
