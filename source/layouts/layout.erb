@@ -30,8 +30,13 @@
     <%= javascript_include_tag "bundle" %>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
-      AOS.init();
-      $(window).load(function() { setTimeout(function() { AOS.refresh(); }, 500); });
+      AOS.init({
+        // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
+        once: false, // whether animation should happen only once - while scrolling down
+        mirror: true, // whether elements should animate out while scrolling past them
+      
+      });
+      AOS.refreshHard();
     </script>
   </body>
 </html>
