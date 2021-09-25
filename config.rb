@@ -19,6 +19,8 @@ activate :autoprefixer do |config|
   config.browsers = '>0.25%, not ie 11, not op_mini all, not dead'
 end
 
+activate :metaman, host: 'https://domain.com'
+
 activate :external_pipeline,
          name: :webpack,
          command: build? ? 'npm run build' : 'npm run start',
