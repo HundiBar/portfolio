@@ -108,6 +108,9 @@
   }
 }
 @media (max-width: 461px) {
+  .hero-wrapper {
+    padding-top: 0px;
+  }
   #element1 {
     order: +2;
     padding-top: 25px;
