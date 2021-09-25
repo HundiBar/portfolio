@@ -19,8 +19,6 @@ activate :autoprefixer do |config|
   config.browsers = '>0.25%, not ie 11, not op_mini all, not dead'
 end
 
-activate :metaman, host: 'https://domain.com'
-
 activate :external_pipeline,
          name: :webpack,
          command: build? ? 'npm run build' : 'npm run start',
@@ -30,6 +28,8 @@ activate :external_pipeline,
 page '/*.xml',  layout: false
 page '/*.json', layout: false
 page '/*.txt',  layout: false
+
+activate :metaman, host: 'https://www.deanabbott.me/'
 
 configure :development do
   set      :debug_assets, true
