@@ -158,16 +158,50 @@
     color: #11141E;
   }
 }
+@media (max-width: 794px) {
+  .project-dark {
+    flex-wrap: nowrap;
+  }
+  .project-light {
+    flex-wrap: nowrap;
+  }
+  .project-info-dark{
+    width: 100%;
+    margin: 90px 24px;
+  }
+  .project-info-light{
+    width: 100%;
+    margin: 90px 24px;
+  }
+  .device.device-gold.device-macbook {
+  transform: scale(0.5);
+  margin-left: 100px;
+  }
+
+
+}
 
 @media (max-width: 461px) {
+  .project-dark {
+    flex-wrap: wrap;
+  }
+  .project-light {
+    flex-wrap: wrap;
+  }
   .project-info-light {
   width: 90%;
   margin-right: 0px;
+  margin-left:0px;
+  margin-top:0px;
+  margin-bottom: 0px;
   padding-top: 16px;
   }
   .project-info-dark {
   width: 90%;
-  margin-left: 0px;
+  margin-right: 0px;
+  margin-left:0px;
+  margin-top:0px;
+  margin-bottom: 0px;
   padding-top: 16px;
   }
   .project-links {
@@ -188,6 +222,7 @@
   }
   .device.device-gold.device-macbook {
   transform: scale(0.5);
+  margin-left: 8px;
   }
   .project-device-macbook {
     margin-top: -48px;
