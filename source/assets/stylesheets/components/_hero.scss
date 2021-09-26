@@ -107,16 +107,13 @@
     display:inline;
   }
 }
-@media (max-width: 461px) {
+@media (max-width: 625px) {
   .hero-wrapper {
     padding-top: 0px;
   }
   #element1 {
     order: +2;
     padding-top: 25px;
-  }
-  #element4 {
-    display: none;
   }
   .hero-text {
     padding-left: 0px;

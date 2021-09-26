@@ -125,7 +125,10 @@
     padding-bottom: 16px;
 }
 
-@media (max-width: 461px){
+@media (max-width: 768px){
+  .about-points {
+    padding: 0 142px;
+  }
   .about-card {
     display: inline-block;
     margin:0 auto;
@@ -136,6 +139,9 @@
     margin:0 auto;
     width: 75%;
   }
+}
+
+@media (max-width: 461px){
   .about-points {
     padding: 0 42px;
   }
