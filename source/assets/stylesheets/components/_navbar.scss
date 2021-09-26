@@ -37,12 +37,14 @@
   opacity: 0;
   transition: .5s ease-in-out;
   z-index: -1;
+  pointer-events: none;
 }
 
 .nav-links.open {
   opacity: 1;
   transition: .5s ease-in-out;
   z-index: 2;
+  pointer-events: visible;
 }
 
 @media (max-width: 375px) {
