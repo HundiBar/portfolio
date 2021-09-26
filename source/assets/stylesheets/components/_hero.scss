@@ -47,7 +47,7 @@
   letter-spacing: 0.04em;
 }
 
-#hero-tech-stack h4 {
+#hero-tech-stack {
   font-family: 'archivo';
   color: #FFFFFF;
   font-weight: 300;
@@ -121,8 +121,8 @@
 }
 
 @media (max-width: 460px) {
-  .hero-wrapper {
-    padding: 0 8px;
+  #hero-tech-stack  {
+    font-size: 18px;
   }
 }
 
