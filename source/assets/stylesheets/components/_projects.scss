@@ -175,7 +175,7 @@
   }
   .device.device-gold.device-macbook {
   transform: scale(0.5);
-  // margin-left: 100px;
+  margin-left: 100px;
   }
 
 
@@ -213,14 +213,24 @@
   .device.device-spacegray.device-iphone-8 {
   transform: scale(0.5);
   }
-  .device-container {
+  .device-container.phone {
     overflow: hidden;
     margin: 0;
+    transform: translateX(-20px);
   }
+  .device-container {
+    overflow: hidden;
+  }
+
+  .device-container.macbook {
+    width: 100%;
+    transform:  translateX(-16px);
+  }
+
   .project-device-iphone-8 {
     margin-top: -175px;
     margin-bottom: -150px;
-    width: 90%;
+    width: 100%;
     overflow: hidden;
   }
   .project-subtitle{
@@ -228,13 +238,12 @@
   }
   .device.device-gold.device-macbook {
   transform: scale(0.5);
-  margin-left: 8px;
   }
-  // .project-device-macbook {
-  //   margin-top: -48px;
-  //   margin-right: -252px;
-  //   width: 90%;
-  // }
+  .project-device-macbook {
+    margin-top: -48px;
+    margin-right: -252px;
+    width: 100%;
+  }
   #projects {
     padding-bottom: 60px;
   }
